@@ -1,0 +1,37 @@
+/* .anim{
+    background-color: navajowhite;
+    color: brown;
+    width: 500px;
+    animation-duration: 10s;
+    animation-name: move;
+    animation-iteration-count: infinite;
+} */
+.anim1{
+    background-color: red;
+    animation-name: phase;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes phase{
+    0%{
+        width: 50px;
+        background-color: red; 
+    }
+    25%{
+        width: 100px;
+        background-color: green;
+    }
+    50%{
+        width: 200px;
+        background-color: palegoldenrod;
+    }
+    70%{
+        width: 500px;
+        background-color: aqua;
+    }
+    100%{
+        width: 100px;
+        background-color: tomato;
+    }
+
+}
